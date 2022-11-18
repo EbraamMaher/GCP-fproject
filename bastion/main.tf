@@ -37,7 +37,7 @@ resource "google_compute_firewall" "bastion-ssh" {
   network       = var.network_name                             #R-  The name or self_link of the network to attach this firewall to.
   direction     = "INGRESS"
   project       = var.project_id
-  source_ranges = ["0.0.0.0/0"] 
+  source_ranges = ["35.235.240.0/20"] 
 
   allow {
     #O- The list of ALLOW rules specified by this firewall. 
@@ -55,7 +55,7 @@ resource "google_compute_firewall" "http" {
   network       = var.network_name                             #R-  The name or self_link of the network to attach this firewall to.
   direction     = "INGRESS"
   project       = var.project_id
-  source_ranges = ["0.0.0.0/0"] 
+  source_ranges = ["35.235.240.0/20"] 
 
   allow {
     
