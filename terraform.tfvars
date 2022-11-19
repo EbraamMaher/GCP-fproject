@@ -4,7 +4,7 @@ main_zone  = "europe-west3-b"
 
 bastion_name       = "bastion-vm"
 
-cluster_node_zones = ["europe-west3-a"] ##edited was b 
+cluster_node_zones = ["europe-west3-a"] 
 
 
 cluster_master_ip_cidr_range   = "10.100.100.0/28"
