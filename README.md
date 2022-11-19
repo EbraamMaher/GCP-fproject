@@ -60,5 +60,8 @@ by getting the external ip and port you can access the app :
   kubectl get svc -n app
 ```
 ###### then access the App using url : http://external_ip:port
-![App Screenshot](https://github.com/EbraamMaher/GCP-fproject/blob/master/pictures/10.png)
 ![App Screenshot](https://github.com/EbraamMaher/GCP-fproject/blob/master/pictures/11.png)
+
+
+
+![App Screenshot](https://github.com/EbraamMaher/GCP-fproject/blob/master/pictures/10.png)
